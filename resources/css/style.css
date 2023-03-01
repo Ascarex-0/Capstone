@@ -1,18 +1,45 @@
+html {
+    font-size: 16px;
+    font-family: Verdana, serif;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 0 24px;
+    height: 4rem;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.left li{
-    float: left;
-}
-
-.right li{
-    float: right;
-}
-
-li a {
+header li a {
     display: block;
     text-decoration: none;
 }
+
+.left li {
+    float: left;
+}
+
+.left a {
+    padding: 0.875rem 0;
+}
+
+.left .name a {
+    padding: 1.4375rem 0;
+}
+
+.right li {
+    float: right;
+}
+
+.right a {
+    padding: 1.4375rem 0.5rem;
+}
+
