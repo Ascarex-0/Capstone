@@ -3,6 +3,10 @@ html {
     font-family: Verdana, serif;
 }
 
+body {
+    margin: 0;
+}
+
 header {
     position: fixed;
     left: 0;
@@ -43,3 +47,39 @@ header li a {
     padding: 1.4375rem 0.5rem;
 }
 
+/* Hero */
+
+#sign-up-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 4rem;
+    padding: 2rem 1.5rem;
+    background-color: lightgray;
+}
+
+.banner {
+    width: 60%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.content {
+    padding: 0 3rem 0 1.5rem;
+}
+
+.content h1 {
+    margin: 0;
+}
+
+.sub {
+    margin: 1.5rem 0;
+}
+
+#sign-up-section .button {
+    background-color: darkgray;
+    padding: 0.5rem 0;
+    text-align: center;
+}
