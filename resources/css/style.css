@@ -7,6 +7,12 @@ body {
     margin: 0;
 }
 
+img {
+    width: 100%;
+}
+
+/* Header */
+
 header {
     position: fixed;
     left: 0;
@@ -14,6 +20,8 @@ header {
     right: 0;
     padding: 0 24px;
     height: 4rem;
+    background-color: white;
+    z-index: 5;
 }
 
 ul {
@@ -62,19 +70,16 @@ header li a {
     width: 60%;
 }
 
-.banner img {
-    width: 100%;
-}
-
-.content {
+#sign-up-section .content {
+    width: 40%;
     padding: 0 3rem 0 1.5rem;
 }
 
-.content h1 {
+#sign-up-section .content h1 {
     margin: 0;
 }
 
-.sub {
+#sign-up-section .sub {
     margin: 1.5rem 0;
 }
 
@@ -82,4 +87,32 @@ header li a {
     background-color: darkgray;
     padding: 0.5rem 0;
     text-align: center;
+}
+
+/* Informational Section */
+
+#informational-section {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    top: 4rem;
+    padding: 2rem 0 2rem 1.5rem;
+}
+
+.features {
+    width: 40%;
+    padding-left: 1.5rem;
+}
+
+#informational-section .image-container {
+    width: 35%;
+}
+
+#informational-section .content {
+    width: 65%;
+}
+
+#informational-section .feature-1, .feature-2, .feature-3 {
+    display: flex;
+    align-items: center;
 }
