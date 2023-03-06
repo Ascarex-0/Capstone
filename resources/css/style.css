@@ -101,18 +101,34 @@ header li a {
 
 .features {
     width: 40%;
-    padding-left: 1.5rem;
+    margin-left: 1.5rem;
+    border-left: 1px solid lightgray;
 }
 
 #informational-section .image-container {
     width: 35%;
+    padding: 1rem;
 }
 
-#informational-section .content {
+#informational-section .feature-content {
     width: 65%;
 }
 
 #informational-section .feature-1, .feature-2, .feature-3 {
     display: flex;
     align-items: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+#informational-section .feature-3 {
+    background-color: lightgray;
+}
+
+#informational-section .sub {
+    padding: 0.5rem 0;
+}
+
+#informational-section .banner-content {
+    width: 100%;
 }
