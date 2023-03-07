@@ -1,3 +1,4 @@
+/* Universal Styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +8,21 @@
 html {
     font-size: 16px;
     font-family: Verdana, serif;
+    color: #000;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+a {
+    width: 100%;
+    color: black;
+    text-decoration: none;
 }
 
 img {
@@ -37,10 +53,6 @@ header {
     font-family: Arial, Verdana, sans-serif;
 }
 
-header a {
-    text-decoration: none;
-}
-
 .header-right a {
     padding: 0 1rem;
 }
@@ -53,38 +65,43 @@ header a {
     font-size: 1.25rem;
 }
 
-/* Hero */
+/* Sign Up Section */
 
 #sign-up-section {
-    display: flex;
-    align-items: center;
     position: relative;
     top: 4rem;
-    padding: 2rem 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 3vw 0 3vw 2.5vw;
     background-color: lightgray;
 }
 
-.banner {
+#sign-up-section .banner {
     width: 60%;
+    padding-right: 2.5vw;
 }
 
-#sign-up-section .content {
-    width: 40%;
-    padding: 0 3rem 0 1.5rem;
+#sign-up-section .start-here {
+    width: 30%;
 }
 
-#sign-up-section .content h1 {
+#sign-up-section h1 {
     margin: 0;
 }
 
-#sign-up-section .sub {
-    margin: 1.5rem 0;
+#sign-up-section h2 {
+    margin: 2vw 0;
+    font-weight: lighter;
 }
 
-#sign-up-section .button {
-    background-color: darkgray;
-    padding: 0.5rem 0;
+#sign-up-section #start-button {
+    display: inline-flex;
+    width: 100%;
+    padding: .5rem 0;
+    font-size: 1.5vw;
     text-align: center;
+    border: none;
+    background-color: darkgray;
 }
 
 /* Informational Section */
