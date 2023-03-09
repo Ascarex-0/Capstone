@@ -25,10 +25,6 @@ a {
     text-decoration: none;
 }
 
-img {
-    width: 100%;
-}
-
 /* Header */
 
 header {
@@ -51,6 +47,7 @@ header {
     display: flex;
     list-style-type: none;
     font-family: Arial, Verdana, sans-serif;
+    font-size: min(16px, 2vw);
 }
 
 .header-right a {
@@ -81,6 +78,10 @@ header {
     padding-right: 2.5vw;
 }
 
+#sign-up-section .banner img {
+    width: 100%;
+}
+
 #sign-up-section .start-here {
     width: 30%;
 }
@@ -106,48 +107,77 @@ header {
 
 /* Informational Section */
 
-#informational-section {
-    display: flex;
-    align-items: flex-start;
+#information-section {
     position: relative;
     top: 4rem;
-    padding: 2rem 0 2rem 1.5rem;
-}
-
-.features {
-    width: 40%;
-    margin-left: 1.5rem;
-    border-left: 1px solid lightgray;
-}
-
-#informational-section .image-container {
-    width: 35%;
-    padding: 1rem;
-}
-
-#informational-section .feature-content {
-    width: 65%;
-}
-
-#informational-section .feature-1, .feature-2, .feature-3 {
     display: flex;
-    align-items: center;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
 }
 
-#informational-section .feature-3 {
-    background-color: lightgray;
+#information-section .info-main {
+    width: 60%;
+    padding: 3vw 2.5vw;
+    border-right: 1px solid lightgray;
 }
 
-#informational-section .sub {
-    padding: 0.5rem 0;
-}
-
-#informational-section .banner-content {
+#information-section img {
     width: 100%;
 }
 
+#information-section .quote h1 {
+    margin: 3vw 0 2.5vw 0;
+}
+
+#information-section .quote p {
+    margin: 0;
+}
+
+#information-section .quote .cite {
+    margin-top: 3vw;
+}
+
+#information-section .info-side {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 1vw 0;
+}
+
+#information-section .info-block {
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+}
+
+#information-section .info-block:hover {
+    background-color: lightgray;
+}
+
+#information-section .info-block img {
+    width: 35%;
+    height: auto;
+}
+
+#information-section .info-text {
+    width: 65%;
+    padding-left: 2vw;
+}
+
+#information-section .info-text h2 {
+    margin: 0;
+}
+
+#information-section .info-text p {
+    margin: 1vw 0;
+}
+
+#information-section .info-text a {
+    color: darkblue;
+}
+
+#information-section #campus {
+    border-top: 2px double lightgray;
+    border-bottom: 2px double lightgray;
+}
 /* Start Learning Section */
 
 #learning-section {
