@@ -179,3 +179,47 @@ header {
     border-bottom: 2px double lightgray;
 }
 /* Courses Section */
+
+#courses-section {
+    position: relative;
+    top: 4rem;
+    padding: 0 6vw 3vw 6vw;
+    background-color: lightgray;
+}
+
+#courses-section h1 {
+    padding: 3vw 0;
+    text-align: center;
+}
+
+#courses-section .courses {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    flex-wrap: wrap;
+}
+
+#courses-section .course-card {
+    width: 30%;
+    background-color: white;
+}
+
+#courses-section .course-card img {
+    width: 100%;
+    height: auto;
+}
+
+#courses-section .card-text {
+    padding: 2vw;
+}
+
+#courses-section .card-text h4 {
+    padding: 1vw 0;
+    font-weight: lighter;
+    color: #5E5E5EFF;
+}
+
+#courses-section .card-text p {
+    margin: 0;
+    color: #5E5E5EFF;
+}
