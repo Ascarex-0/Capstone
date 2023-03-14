@@ -223,3 +223,71 @@ header {
     margin: 0;
     color: #5E5E5EFF;
 }
+
+/* Thesis Section */
+
+#thesis-section {
+    position: relative;
+    top: 4rem;
+}
+
+#thesis-section h1 {
+    text-align: center;
+    padding: 3vw 0;
+}
+
+#thesis-section .thesis-content {
+    display: flex;
+    padding: 0 0 3vw 2.5vw;
+}
+
+#thesis-section .urban {
+    width: 60%;
+    padding-right: 2.5vw;
+}
+
+#thesis-section .urban video {
+    width: 100%;
+}
+
+#thesis-section .urban-text h2 {
+    padding: 2.5vw 0 1vw 0;
+}
+
+#thesis-section .urban-text p {
+    margin: 0;
+}
+
+#thesis-section .features {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+#thesis-section .feature-block {
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+}
+
+#thesis-section .feature-block:hover {
+    background-color: lightgray;
+}
+
+#thesis-section .feature-block img {
+    width: 35%;
+    height: auto;
+}
+
+#thesis-section .feature-text {
+    width: 65%;
+    padding-left: 2vw;
+}
+
+#thesis-section .feature-text h2 {
+    margin: 0;
+}
+
+#thesis-section .feature-text p {
+    margin: 1vw 0;
+}
