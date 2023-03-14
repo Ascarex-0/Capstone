@@ -291,3 +291,18 @@ header {
 #thesis-section .feature-text p {
     margin: 1vw 0;
 }
+
+/* Footer */
+
+footer {
+    position: relative;
+    top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 0 3vw 2.5vw;
+    border-top: 1px solid lightgray;
+}
+
+footer .footer-links a {
+    padding-right: 1vw;
+}
